@@ -1,4 +1,4 @@
-/** @type {import('../../packages/plugin-sdk').Plugin} */
+// Browser entry for Velum Code's command plugin API.
 const plugin = {
   commands: {
     async "project-brief"(api) {
