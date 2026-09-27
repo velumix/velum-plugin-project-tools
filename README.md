@@ -9,7 +9,9 @@ A small plugin by **Velumix** that turns a workspace into a useful starting poin
 
 ## Install
 
-Open **Plugins** in [Velum Code](https://github.com/velumix/VelumCode), paste `velumix/velum-plugin-project-tools`, and choose **Review plugin**. Review the workspace-read permission, then install.
+Open **Plugins** in [Velum Code](https://github.com/velumix/VelumCode), find **Project tools** in Browse, and choose **Install**. Review the workspace-read permission, then install.
+
+For the repository's latest commit, choose **Install from GitHub**, paste `velumix/velum-plugin-project-tools`, and choose **Review plugin**.
 
 Run a command to see its result. **Add to draft** puts it into your conversation without sending it automatically. The plugin makes no network or AI requests.
 
@@ -22,3 +24,5 @@ Run a command to see its result. **Add to draft** puts it into your conversation
 Use **Check for updates** in Velum. Every installed version is pinned to a commit, and each update requires review.
 
 This repository is also a working example for plugin authors. Keep `velum-plugin.json` and built `index.js` at the root of your public GitHub repository. See the [plugin SDK guide](https://github.com/velumix/VelumCode/blob/main/docs/plugins.md) for the API, TypeScript types, and limits.
+
+To share your own plugin, use **Plugins → Publish your plugin**. Velum checks your repository and opens a prefilled GitHub submission. After review, it appears in the [community directory](https://github.com/velumix/velum-code-plugins).
